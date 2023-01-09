@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "numbersOfVm": {
+            "value": 2
+        },
+        "hostNamePrefix": {
+            "value": "Host"
+        },
+        "userNameLocal": {
+            "value": "pierrc"
+        },
+        "pwdLocal": {
+            "value": ""
+        },
+        "domainName": {
+            "value": "ma-pme.local"
+        },
+        "domainUsername": {
+            "value": "pierrc@ma-pme.local"
+        },
+        "domainUsernamePassword": {
+            "value": ""
+        },
+        "vmSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "galleryNameResourceGroupName": {
+            "value": "Rg-AVD-Images-00001"
+        },
+        "galleryName": {
+            "value": "aibsig00001"
+        },
+        "galleryImageDefinitionName": {
+            "value": "win10avdoct"
+        },
+        "galleryImageVersionName": {
+            "value": "0.24956.1975"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "rgName": {
+            "value": "RG-ID-AVD"
+        },
+        "hostPoolName": {
+            "value": "HostPool-0"
+        },
+        "hostPoolType": {
+            "value": "pooled"
+        },
+        "loadBalancerType": {
+            "value": "BreadthFirst"
+        },
+        "maxSessionLimit": {
+            "value": 10
+        },
+        "validationEnvironment": {
+            "value": true
+        },
+        "tokenExpirationTime": {
+            "value": ""
+        },
+        "applicationGroupType": {
+            "value": "Desktop"
+        },
+        "dagName": {
+            "value": "DAG-0"
+        },
+        "workspaceName": {
+            "value": "WKS-0"
+        },
+        "virtualNetworkResourceGroupName": {
+            "value": "RG-ID-PROD"
+        },
+        "virtualNetworkName": {
+            "value": "Vnet-ID-PROD"
+        },
+        "subnetName": {
+            "value": "Subnet-Hosts"
+        }
+    }
+}
